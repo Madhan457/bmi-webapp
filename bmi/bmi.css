@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgb(107, 80, 238);
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+.container {
+  background-color: whitesmoke;
+  width: 450px;
+  padding: 20px;
+  height: 400px;
+  border-radius: 9px;
+  box-shadow: 5px 5px 26px rgb(87, 255, 247);
+}
+.container h1 {
+  color: rgb(107, 80, 238);
+  letter-spacing: 1px;
+}
+.input-container {
+  width: 100%;
+  text-wrap: nowrap;
+}
+.weight {
+  padding: 20px 0 10px 0;
+  width: 100%;
+}
+.height {
+  padding: 10px 0 20px 0;
+  width: 100%;
+}
+.input-container label {
+  color: rgb(107, 80, 238);
+  font-size: 24px;
+}
+.input-container input {
+  padding: 9px;
+  border: none;
+  width: 300px;
+  margin-left: 10px;
+  background-color: #e5e3ea;
+  border-bottom: solid rgb(107, 80, 238);
+  border-radius: 4px;
+  color: rgb(43, 0, 255);
+}
+.input-container input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.input-container input::placeholder {
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 1px;
+  color: rgb(107, 80, 238);
+}
+.input-container input:focus {
+  outline: none;
+  outline: 1px solid blue;
+}
+.result-container {
+  width: 150px;
+  height: 120px;
+  background-color: rgb(197, 217, 249);
+  margin-left: 130px;
+  padding: 10px;
+  border-radius: 5px;
+  outline: 1px solid blue;
+  color: rgb(106, 0, 255);
+}
+.buttons button {
+  padding: 13px;
+  background-color: rgb(107, 80, 238);
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  color: white;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 2px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.result-container p {
+  font-size: 22px;
+  text-shadow: 1px 1px 1px black;
+}
+.buttons button:hover {
+  cursor: pointer;
+  background-color: rgb(50, 80, 238);
+}
